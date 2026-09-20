@@ -1,0 +1,35 @@
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Environment / secrets
+.env
+
+# Training datasets
+content_data/
+style_data/
+train_3_c/
+test2017/
+
+# Uploaded/generated user images
+static/uploads/*
+
+# Training experiment files we don't need on GitHub
+experiment/*/optimizer_*.pth
+experiment/*/output_*.png
+experiment/*/args.txt
+
+# Logs
+*.log
